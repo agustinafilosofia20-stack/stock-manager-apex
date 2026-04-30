@@ -1,49 +1,19 @@
-# Stock Manager - Oracle APEX
+# 📦 Stock Manager APEX
 
-Proyecto de gestión de inventario desarrollado con **Oracle APEX** y **SQL**.
+Primer proyecto realizado en Oracle APEX para la gestión de stock e inventario.
 
-Este proyecto permite visualizar productos almacenados, su categoría, cantidad disponible, precio y proveedor.
-
----
-
-## 🚀 Tecnologías utilizadas
-- Oracle APEX
-- SQL
-- Git / GitHub
-- Visual Studio Code
-
----
-
-## 📦 Funcionalidades
-- Gestión de stock
-- Consulta de productos
-- Base de datos SQL
-- Visualización de inventario
-- Gestión por categorías
-- Control de cantidad y precio
-
----
-
-## 🗃️ Base de datos
-La tabla principal utilizada es:
-
-`PRODUCTOS`
-
-Campos:
-- ID
-- NOMBRE
-- CATEGORIA
-- CANTIDAD
-- PRECIO
-- PROVEEDOR
-
----
+## ✨ Funcionalidades
+- Gestión de productos
+- Categoría
+- Cantidad
+- Precio
+- Proveedor
 
 ## 📸 Vista previa del proyecto
-![Vista previa](screenshots/project-preview.png)
 
----
+![Vista previa](./screenshots/project-preview.png)
 
-## 💻 Consulta SQL utilizada
+## 💾 Consulta SQL utilizada
+
 ```sql
 SELECT * FROM PRODUCTOS;
